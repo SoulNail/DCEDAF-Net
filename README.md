@@ -82,7 +82,7 @@ python main_test.py
 
 ## paper中训练好的模型pt文件(DRIVE)可以从以下链接获取
 
-[OneDrive链接]([https://pytorch.org/get-started/locally/](https://1drv.ms/u/c/bdd64c2b3becb118/ERXcszvMZ0dEs0Qzn6PdYdABIvU1z8owo1SbuGp41XyQ8Q))
+[OneDrive链接](https://pytorch.org/get-started/locally/](https://1drv.ms/u/c/bdd64c2b3becb118/ERXcszvMZ0dEs0Qzn6PdYdABIvU1z8owo1SbuGp41XyQ8Q)
 
 ## 联系方式
 
