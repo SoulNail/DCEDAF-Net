@@ -1,0 +1,18 @@
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# PyCharm IDE
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
