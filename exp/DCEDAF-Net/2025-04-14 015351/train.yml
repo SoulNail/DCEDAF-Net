@@ -1,0 +1,52 @@
+{
+ ### Environment Parameters
+  debug: false,
+  mode: train,
+  cuda: true,
+  pin_memory: true,
+  wandb: false,
+  worker: 0,
+  log_interval: 9999,
+  save_interval: 1,
+  saved_model_directory: 'FSGNet_WGA2_PConv_3_ELA_finalcross',
+  train_fold: 1,
+  project_name: 'FSGNet_WGA2_PConv_3_ELA_finalcross',
+  CUDA_VISIBLE_DEVICES: '0',
+
+  ### Train Parameters
+  model_name: 'MyModel_modify',
+    n_classes: 1,
+    in_channels: 3,
+  dataloader: 'Image2Image_zero_pad',
+  criterion: 'DiceBCELoss', # DiceBCELoss
+  task: 'segmentation',
+  input_space: 'RGB',
+  input_channel: 3,
+  input_size: [608, 608],  # [h, w] DRIVE:608, STARE:704, CHASE_DB1:1024, HRF:1344
+  optimizer: 'AdamW',
+    lr: 0.001,
+    scheduler: 'WarmupCosine',  # ConstantLRSchedule, WarmupCosine
+    cycles: 100,
+    warmup_epoch: 20,
+    weight_decay: 0.05, # 0.05
+  batch_size: 2,
+  epoch: 10000,
+  ema_decay: 0, # set 0 to deactivate
+  class_weight: [1.0, 1.0],
+  model_path: 'FSGNet_WGA2_PConv_3_ELA_finalcross/2025-04-12 114008/MyModel_modify-Epoch_1880-f1_score_0.8324147594256696.pt', # pretrained/FSG-Net-DRIVE.pt
+    freeze_layer: false,
+
+  ### Augmentation Parameters
+  transform_blur: true,
+  transform_jitter: true,
+  transform_hflip: true,
+  transform_perspective: true,
+  transform_cutmix: true,
+  transform_rand_resize: true,
+  transform_rand_crop: 288,
+
+  train_x_path: 'datasets/DRIVE/train/input',
+  train_y_path: 'datasets/DRIVE/train/label',
+  val_x_path:   'datasets/DRIVE/val/input',
+  val_y_path:   'datasets/DRIVE/val/label',
+}

@@ -1,0 +1,35 @@
+Model: MyModel_modify
+Timestamp: 2025-10-31 12:26:17
+
+==================================================
+Overall Metrics:
+  mIoU: 0.8428
+  Mean F1: 0.8326
+  Mean Acc: 0.9738
+  Mean AUC (image-wise): 0.9812
+  Overall AUC (all pixels): 0.9898
+  Mean Sensitivity: 0.8384
+  Mean MCC: 0.8195
+
+==================================================
+Per-image AUC values:
+  datasets/DRIVE/val/input/01.tif: AUC=0.9939, F1=0.8393
+  datasets/DRIVE/val/input/02.tif: AUC=0.9999, F1=0.8581
+  datasets/DRIVE/val/input/03.tif: AUC=0.9736, F1=0.8255
+  datasets/DRIVE/val/input/04.tif: AUC=0.9741, F1=0.8415
+  datasets/DRIVE/val/input/05.tif: AUC=0.9494, F1=0.8249
+  datasets/DRIVE/val/input/06.tif: AUC=0.9371, F1=0.8186
+  datasets/DRIVE/val/input/07.tif: AUC=0.9413, F1=0.8258
+  datasets/DRIVE/val/input/08.tif: AUC=0.9728, F1=0.8220
+  datasets/DRIVE/val/input/09.tif: AUC=0.9594, F1=0.8232
+  datasets/DRIVE/val/input/10.tif: AUC=0.9987, F1=0.8234
+  datasets/DRIVE/val/input/11.tif: AUC=0.9998, F1=0.8251
+  datasets/DRIVE/val/input/12.tif: AUC=0.9980, F1=0.8427
+  datasets/DRIVE/val/input/13.tif: AUC=0.9724, F1=0.8301
+  datasets/DRIVE/val/input/14.tif: AUC=0.9976, F1=0.8371
+  datasets/DRIVE/val/input/15.tif: AUC=0.9974, F1=0.8386
+  datasets/DRIVE/val/input/16.tif: AUC=0.9853, F1=0.8482
+  datasets/DRIVE/val/input/17.tif: AUC=0.9952, F1=0.8274
+  datasets/DRIVE/val/input/18.tif: AUC=0.9929, F1=0.8226
+  datasets/DRIVE/val/input/19.tif: AUC=0.9935, F1=0.8618
+  datasets/DRIVE/val/input/20.tif: AUC=0.9918, F1=0.8159
