@@ -4,7 +4,7 @@ DCEDAF-Net Code Repository
 
 ## 简介
 
-DCEDAF-Net 是一个深度学习模型的实现代码仓库。本项目包含了模型训练、测试和推理的完整流程。
+DCEDAF-Net 是论文实现的代码仓库。包含了模型训练、测试和推理的完整流程。
 
 ## 环境要求
 
@@ -82,7 +82,7 @@ python main_test.py
 
 ## paper中训练好的模型pt文件(DRIVE)可以从以下链接获取
 
-[OneDrive链接](https://pytorch.org/get-started/locally/](https://1drv.ms/u/c/bdd64c2b3becb118/ERXcszvMZ0dEs0Qzn6PdYdABIvU1z8owo1SbuGp41XyQ8Q)
+[OneDrive链接](https://1drv.ms/u/c/bdd64c2b3becb118/ERXcszvMZ0dEs0Qzn6PdYdABIvU1z8owo1SbuGp41XyQ8Q)
 
 ## 联系方式
 
