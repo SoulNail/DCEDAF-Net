@@ -1,6 +1,6 @@
 # DCEDAF-Net
 
-DCEDAF-Net Code Repository
+Code implementation for our paper "DCEDAF-Net: Enhanced Retinal Vessel Segmentation through Dual-Convolution Encoding and Attention Fusion" (*The Visual Computer*).
 
 ## 简介
 
